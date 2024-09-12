@@ -6,6 +6,7 @@ The Wine Quality Prediction project aims to predict the quality of wine based on
 
 ## Project structure:
 
+```
 wine_quality_prediction/
 │
 ├── data/
@@ -35,3 +36,4 @@ wine_quality_prediction/
 ├── README.md                   # Project documentation
 ├── Dockerfile                  # Docker configuration file (optional)
 └── .gitignore                  # Git ignore file
+```
