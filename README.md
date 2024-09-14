@@ -1,4 +1,3 @@
-
 # **Wine Quality Prediction**
 
 ## **Overview**
@@ -130,3 +129,5 @@ This will output the predicted wine quality based on the input features.
 
 ## **License**
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+---
