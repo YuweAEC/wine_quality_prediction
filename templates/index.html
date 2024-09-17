@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid lightgray;
+        }
+        input[type="submit"] {
+            background-color: lightblue;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wine Quality Prediction</h1>
+    <form action="/result" method="POST">
+        <label for="fixed_acidity">Fixed Acidity:</label>
+        <input type="text" name="fixed_acidity" id="fixed_acidity" required><br>
+
+        <label for="volatile_acidity">Volatile Acidity:</label>
+        <input type="text" name="volatile_acidity" id="volatile_acidity" required><br>
+
+        <label for="citric_acid">Citric Acid:</label>
+        <input type="text" name="citric_acid" id="citric_acid" required><br>
+
+        <label for="residual_sugar">Residual Sugar:</label>
+        <input type="text" name="residual_sugar" id="residual_sugar" required><br>
+
+        <label for="density">Density:</label>
+        <input type="text" name="density" id="density" required><br>
+
+        <label for="pH">pH:</label>
+        <input type="text" name="pH" id="pH" required><br>
+
+        <label for="alcohol">Alcohol:</label>
+        <input type="text" name="alcohol" id="alcohol" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
